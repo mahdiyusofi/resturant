@@ -1,0 +1,74 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/qabeli.jpg');
+    background-size: cover; /* Das Bild so anpassen, dass es den gesamten Hintergrund abdeckt */
+    background-position: center; /* Das Bild in der Mitte des Bildschirms positionieren */
+    background-repeat: no-repeat; /* Verhindern, dass das Bild wiederholt wird */
+    min-height: 100vh;
+}
+header{
+    left: 0;
+    right: 0;
+    top: 0;
+    width: auto;
+    background-color:rgb(0, 0, 0);
+    opacity: 0.9;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul 
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 5vh;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+header ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+}
+header .logo{
+    height: 140px;
+    width: 150px;
+    justify-items: left;
+    display: flex	;
+}
+header .logo img
+{
+    position: relative;
+    border-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+
+section{
+    margin-top: 15vh;
+    left: 0;
+    right: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+
+}
+
+
+@media (max-width: 800px)
+{
+    
+}

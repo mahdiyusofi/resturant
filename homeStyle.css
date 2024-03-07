@@ -18,8 +18,10 @@ header{
     position: fixed;
     z-index: 1000;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    justify-items: flex-start;
+    gap: 150px;
 }
 header ul 
 {   
@@ -42,7 +44,8 @@ header ul a{
 header .logo{
     height: 140px;
     width: 150px;
-    margin-right: 100px;
+    justify-items: left;
+    display: flex	;
 }
 header .logo img
 {
@@ -55,7 +58,5 @@ header .logo img
 
 @media (max-width: 800px)
 {
-    header {
-        
-    }
+    
 }
