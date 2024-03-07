@@ -42,8 +42,6 @@ header ul a{
 header .logo{
     height: 140px;
     width: 150px;
-    justify-items: left;
-    display: flex	;
 }
 header .logo img
 {
@@ -54,14 +52,15 @@ header .logo img
 }
 
 
-section{
-    margin-top: 15vh;
-    left: 0;
-    right: 0;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+section {
+    margin-top: 15vh;     /* Setzt den oberen Rand der Sektion auf 15% der Viewport-Höhe. */
+    left: 0;              /* Positioniert die linke Seite der Sektion am linken Rand. */
+    right: 0;             /* Positioniert die rechte Seite der Sektion am rechten Rand. */
+    display: grid;        /* Definiert die Sektion als Grid-Container für die Verwendung des Grid-Layouts. */
+    justify-content: center;   /* Zentriert den Inhalt der Sektion horizontal im Grid-Container. */
+    align-items: center;       /* Zentriert den Inhalt der Sektion vertikal im Grid-Container. */
 }
+
 
 section div {
 
